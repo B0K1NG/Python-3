@@ -4,16 +4,14 @@ Welcome to my repository where I showcase some of the most interesting and chall
 
 ## Tech Stack 🛠️
 
-- **Programming Language**: Python 3
+- **Programming Language**:
+  - Python 3
 - **Editors**: 
   - PyCharm
   - Visual Studio Code
 
-Feel free to explore the projects and reach out if you have any questions or feedback!
+## Connect With Me 🌐
 
-## Contact 📬
-
-- **GitHub**: [Your GitHub](https://github.com/yourgithub)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourlinkedin)
-
-Thank you for visiting my project repository!
+- [LinkedIn](https://www.linkedin.com/in/dominykas-pavlijus-138b41270/).
+- [GitHub](https://github.com/B0K1NG).
+- [Instagram](https://www.instagram.com/ig_dominykas/).
