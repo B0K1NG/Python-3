@@ -1,3 +1,34 @@
-grades = [90, 88, 62, 76, 74, 89, 48, 57]
-scaled_grades = [grade + 10 for grade in grades]
-print(scaled_grades)
+hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
+prices = [30, 25, 40, 20, 20, 35, 50, 35]
+last_week = [2, 3, 5, 8, 4, 4, 6, 2]
+
+
+#Marking the total price
+total_price = 0
+for price in prices:
+    total_price += price
+average_price = total_price / len(prices)
+print('Average Haircut Price: ' + str(average_price) + '$')
+
+
+#Changing the prices, making each 5 dollar's less
+new_prices = [price - 5 for price in prices]
+print(new_prices)
+
+
+#Checking last weeks revenue
+total_revenue = 0
+for i in range(len(hairstyles)):
+    total_revenue += prices[i] * prices[i]
+print ('Total Revenue: ' + str(total_revenue) + '$')
+
+
+#Finding average daily revenue
+average_daily_revenue = total_revenue / 7
+print(str(average_daily_revenue) + '$')
+
+
+#Finding the cut's under 30$ to advertise them
+cuts_under_30 = [hairstyles[i] for i in range(len(new_prices)) if new_prices[i] < 30]
+print(cuts_under_30)
+    
